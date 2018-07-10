@@ -17,6 +17,10 @@ def dinner(food="salmon")
   "Any time, is the right time for #{food}!"
 end
 
+puts snacks
+puts breakfast
+puts lunch
+puts dinner
 
 
 
