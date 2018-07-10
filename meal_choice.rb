@@ -12,10 +12,26 @@ end
 
 
 # Call the methods with puts and your own arguments here. Like this:
-puts snacks("Swedish fish")
+# puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
+
+def breakfast (food="frosted flakes")
+  "Morning is the best time for #{food}."
+end
+
+def lunch (food="grilled cheese")
+  "Noon is the best time for #{food}."
+end
+
+def dinner (food="salmon")
+  "Evening is the best time for #{food}."
+end
+
+puts breakfast
+puts lunch 
+puts dinner 
 
 
 # Call your methods without any arguments here
